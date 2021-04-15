@@ -1,0 +1,119 @@
+header{
+  border-top: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1290px;
+  height: 410px;
+  position: relative;
+ background-image:url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+ background-size: 100% 100%;
+}
+#name-in-header{
+  position: absolute;
+  top: 220px;
+  left: 300px;
+}
+#header-p1{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 40px;
+  font-weight: 600;
+  margin-botom: 0px;
+}
+#header-p2{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 70px;
+  font-weight: 600;
+  margin-top: 0px;
+}
+main{
+  position: relative;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+.fist-li{
+  font-size: 20px;
+}
+
+li{
+  padding-top: 8px;
+  font-size: 15px;
+  list-style-type: square;
+}
+
+div{
+  font-family: 'Josefin Sans';
+  border: 3px line blue;
+}
+
+.content{
+  margin-left: auto;
+  margin-right: auto;
+  width: 720px;
+}
+
+blockquote{
+  padding: 50px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 48px;
+  color: white;
+  width: 700px;
+  background: RGB(68 68 68);
+}
+
+blockquote::before{
+  position: absolute;
+  font-size: 150px;
+  top: -44px;
+  left: -2px;
+  content: '“';
+ }
+
+#first-content{
+  line-height: 30px;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+}
+
+p{
+  line-height: 20px;
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+}
+
+.sections{
+  font-weight: bolder;
+  line-height: 30px;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  text-transform: uppercase;
+  letter-spacing: 1pt;
+  margin-bottom: 50px;
+}
+.under-section{
+  font-weight: 700;
+  line-height: 30px;
+  font-size: 22px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  margin-bottom: 0px;
+}
+.subtitles{
+  margin-top: 0px;
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  font-weight: 900;
+  font-style: italic;
+}
+.line{
+  border-top: 4px solid RGB(68 68 68);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
